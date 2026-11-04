@@ -73,12 +73,14 @@ async function main() {
     }).data;
     fs.writeFileSync(path.join(root, `dist/svg/${spec.id}.svg`), min);
     bytes.svg += min.length;
+    const sizes = { svg: min.length, webp: {} };
 
     for (const size of SIZES) {
       const png = new Resvg(svg, { fitTo: { mode: 'width', value: size } }).render().asPng();
       const webp = await sharp(png).webp({ quality: 90, alphaQuality: 95, effort: 6 }).toBuffer();
       fs.writeFileSync(path.join(root, `dist/webp/${size}/${spec.id}.webp`), webp);
       bytes.webp[size] += webp.length;
+      sizes.webp[size] = webp.length;
     }
 
     manifest.push({
@@ -87,10 +89,15 @@ async function main() {
       tags: spec.tags,
       svg: `svg/${spec.id}.svg`,
       webp: Object.fromEntries(SIZES.map((s) => [s, `webp/${s}/${spec.id}.webp`])),
+      bytes: sizes,
     });
   }
 
   fs.writeFileSync(path.join(root, 'dist/manifest.json'), JSON.stringify({ version: require('../package.json').version, icons: manifest }, null, 2));
+
+  // The showcase page in docs/ is served as-is (GitHub Pages from /docs), so it gets its own copy.
+  fs.rmSync(path.join(root, 'docs/dist'), { recursive: true, force: true });
+  fs.cpSync(path.join(root, 'dist'), path.join(root, 'docs/dist'), { recursive: true });
 
   const kb = (n) => `${(n / 1024).toFixed(1)} KB`;
   const n = rendered.length;
