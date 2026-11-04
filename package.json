@@ -1,0 +1,19 @@
+{
+  "name": "gloss-icons",
+  "version": "0.1.0",
+  "description": "Original glossy 3D-style icons: lacquer finish with inner depth. SVG and optimised WebP.",
+  "license": "MIT",
+  "private": true,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "node scripts/build.js",
+    "sheet": "node scripts/build.js --sheet-only"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "sharp": "^0.35.5",
+    "svgo": "^4.1.0"
+  }
+}

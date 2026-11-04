@@ -1,0 +1,1140 @@
+{
+  "version": "0.1.0",
+  "icons": [
+    {
+      "id": "badge-18",
+      "name": "18+",
+      "tags": [
+        "18+",
+        "adults only",
+        "mature",
+        "nsfw",
+        "age"
+      ],
+      "svg": "svg/badge-18.svg",
+      "webp": {
+        "32": "webp/32/badge-18.webp",
+        "64": "webp/64/badge-18.webp",
+        "128": "webp/128/badge-18.webp",
+        "256": "webp/256/badge-18.webp"
+      }
+    },
+    {
+      "id": "blossom",
+      "name": "Blossom",
+      "tags": [
+        "flower",
+        "spring",
+        "holi",
+        "bloom",
+        "nature",
+        "pretty"
+      ],
+      "svg": "svg/blossom.svg",
+      "webp": {
+        "32": "webp/32/blossom.webp",
+        "64": "webp/64/blossom.webp",
+        "128": "webp/128/blossom.webp",
+        "256": "webp/256/blossom.webp"
+      }
+    },
+    {
+      "id": "brain",
+      "name": "Brain",
+      "tags": [
+        "mind",
+        "think",
+        "smart",
+        "puzzle",
+        "mind benders",
+        "brainy"
+      ],
+      "svg": "svg/brain.svg",
+      "webp": {
+        "32": "webp/32/brain.webp",
+        "64": "webp/64/brain.webp",
+        "128": "webp/128/brain.webp",
+        "256": "webp/256/brain.webp"
+      }
+    },
+    {
+      "id": "briefcase",
+      "name": "Briefcase",
+      "tags": [
+        "work",
+        "office",
+        "business",
+        "job",
+        "career"
+      ],
+      "svg": "svg/briefcase.svg",
+      "webp": {
+        "32": "webp/32/briefcase.webp",
+        "64": "webp/64/briefcase.webp",
+        "128": "webp/128/briefcase.webp",
+        "256": "webp/256/briefcase.webp"
+      }
+    },
+    {
+      "id": "car",
+      "name": "Car",
+      "tags": [
+        "car",
+        "road trip",
+        "drive",
+        "travel",
+        "journey"
+      ],
+      "svg": "svg/car.svg",
+      "webp": {
+        "32": "webp/32/car.webp",
+        "64": "webp/64/car.webp",
+        "128": "webp/128/car.webp",
+        "256": "webp/256/car.webp"
+      }
+    },
+    {
+      "id": "champagne",
+      "name": "Champagne",
+      "tags": [
+        "celebrate",
+        "party",
+        "pop",
+        "bubbly",
+        "new year",
+        "congrats"
+      ],
+      "svg": "svg/champagne.svg",
+      "webp": {
+        "32": "webp/32/champagne.webp",
+        "64": "webp/64/champagne.webp",
+        "128": "webp/128/champagne.webp",
+        "256": "webp/256/champagne.webp"
+      }
+    },
+    {
+      "id": "cheers",
+      "name": "Cheers",
+      "tags": [
+        "drinks",
+        "toast",
+        "celebrate",
+        "date",
+        "wine",
+        "anniversary"
+      ],
+      "svg": "svg/cheers.svg",
+      "webp": {
+        "32": "webp/32/cheers.webp",
+        "64": "webp/64/cheers.webp",
+        "128": "webp/128/cheers.webp",
+        "256": "webp/256/cheers.webp"
+      }
+    },
+    {
+      "id": "cherries",
+      "name": "Cherries",
+      "tags": [
+        "fruit",
+        "pair",
+        "couple",
+        "sweet",
+        "flirty"
+      ],
+      "svg": "svg/cherries.svg",
+      "webp": {
+        "32": "webp/32/cherries.webp",
+        "64": "webp/64/cherries.webp",
+        "128": "webp/128/cherries.webp",
+        "256": "webp/256/cherries.webp"
+      }
+    },
+    {
+      "id": "chili",
+      "name": "Chili",
+      "tags": [
+        "spicy",
+        "hot",
+        "food",
+        "pepper",
+        "flirty"
+      ],
+      "svg": "svg/chili.svg",
+      "webp": {
+        "32": "webp/32/chili.webp",
+        "64": "webp/64/chili.webp",
+        "128": "webp/128/chili.webp",
+        "256": "webp/256/chili.webp"
+      }
+    },
+    {
+      "id": "clapper",
+      "name": "Clapperboard",
+      "tags": [
+        "film",
+        "movie",
+        "cinema",
+        "action",
+        "scene",
+        "date night"
+      ],
+      "svg": "svg/clapper.svg",
+      "webp": {
+        "32": "webp/32/clapper.webp",
+        "64": "webp/64/clapper.webp",
+        "128": "webp/128/clapper.webp",
+        "256": "webp/256/clapper.webp"
+      }
+    },
+    {
+      "id": "coffee",
+      "name": "Coffee",
+      "tags": [
+        "coffee",
+        "morning",
+        "cafe",
+        "date",
+        "drink",
+        "cosy"
+      ],
+      "svg": "svg/coffee.svg",
+      "webp": {
+        "32": "webp/32/coffee.webp",
+        "64": "webp/64/coffee.webp",
+        "128": "webp/128/coffee.webp",
+        "256": "webp/256/coffee.webp"
+      }
+    },
+    {
+      "id": "couch",
+      "name": "Couch",
+      "tags": [
+        "couch",
+        "sofa",
+        "together",
+        "home",
+        "cosy"
+      ],
+      "svg": "svg/couch.svg",
+      "webp": {
+        "32": "webp/32/couch.webp",
+        "64": "webp/64/couch.webp",
+        "128": "webp/128/couch.webp",
+        "256": "webp/256/couch.webp"
+      }
+    },
+    {
+      "id": "crystal-ball",
+      "name": "Crystal ball",
+      "tags": [
+        "future",
+        "fortune",
+        "mystery",
+        "deep questions",
+        "predict",
+        "magic"
+      ],
+      "svg": "svg/crystal-ball.svg",
+      "webp": {
+        "32": "webp/32/crystal-ball.webp",
+        "64": "webp/64/crystal-ball.webp",
+        "128": "webp/128/crystal-ball.webp",
+        "256": "webp/256/crystal-ball.webp"
+      }
+    },
+    {
+      "id": "devil",
+      "name": "Devil",
+      "tags": [
+        "mischief",
+        "naughty",
+        "after dark",
+        "smirk"
+      ],
+      "svg": "svg/devil.svg",
+      "webp": {
+        "32": "webp/32/devil.webp",
+        "64": "webp/64/devil.webp",
+        "128": "webp/128/devil.webp",
+        "256": "webp/256/devil.webp"
+      }
+    },
+    {
+      "id": "dice",
+      "name": "Dice",
+      "tags": [
+        "game",
+        "chance",
+        "classic",
+        "random"
+      ],
+      "svg": "svg/dice.svg",
+      "webp": {
+        "32": "webp/32/dice.webp",
+        "64": "webp/64/dice.webp",
+        "128": "webp/128/dice.webp",
+        "256": "webp/256/dice.webp"
+      }
+    },
+    {
+      "id": "disco-ball",
+      "name": "Disco Ball",
+      "tags": [
+        "party",
+        "dance",
+        "disco",
+        "night out",
+        "club",
+        "mirror ball"
+      ],
+      "svg": "svg/disco-ball.svg",
+      "webp": {
+        "32": "webp/32/disco-ball.webp",
+        "64": "webp/64/disco-ball.webp",
+        "128": "webp/128/disco-ball.webp",
+        "256": "webp/256/disco-ball.webp"
+      }
+    },
+    {
+      "id": "diya",
+      "name": "Diya",
+      "tags": [
+        "diwali",
+        "lamp",
+        "light",
+        "festival",
+        "celebration",
+        "warm"
+      ],
+      "svg": "svg/diya.svg",
+      "webp": {
+        "32": "webp/32/diya.webp",
+        "64": "webp/64/diya.webp",
+        "128": "webp/128/diya.webp",
+        "256": "webp/256/diya.webp"
+      }
+    },
+    {
+      "id": "dizzy",
+      "name": "Dizzy",
+      "tags": [
+        "dizzy",
+        "confused",
+        "spinning",
+        "drunk",
+        "woozy"
+      ],
+      "svg": "svg/dizzy.svg",
+      "webp": {
+        "32": "webp/32/dizzy.webp",
+        "64": "webp/64/dizzy.webp",
+        "128": "webp/128/dizzy.webp",
+        "256": "webp/256/dizzy.webp"
+      }
+    },
+    {
+      "id": "dumbbell",
+      "name": "Dumbbell",
+      "tags": [
+        "fitness",
+        "gym",
+        "workout",
+        "strong",
+        "exercise",
+        "weights"
+      ],
+      "svg": "svg/dumbbell.svg",
+      "webp": {
+        "32": "webp/32/dumbbell.webp",
+        "64": "webp/64/dumbbell.webp",
+        "128": "webp/128/dumbbell.webp",
+        "256": "webp/256/dumbbell.webp"
+      }
+    },
+    {
+      "id": "eye-mask",
+      "name": "Sleep Mask",
+      "tags": [
+        "sleep",
+        "blindfold",
+        "rest",
+        "night",
+        "dream",
+        "after dark"
+      ],
+      "svg": "svg/eye-mask.svg",
+      "webp": {
+        "32": "webp/32/eye-mask.webp",
+        "64": "webp/64/eye-mask.webp",
+        "128": "webp/128/eye-mask.webp",
+        "256": "webp/256/eye-mask.webp"
+      }
+    },
+    {
+      "id": "film-reel",
+      "name": "Film Reel",
+      "tags": [
+        "movie",
+        "film",
+        "cinema",
+        "movie night",
+        "video"
+      ],
+      "svg": "svg/film-reel.svg",
+      "webp": {
+        "32": "webp/32/film-reel.webp",
+        "64": "webp/64/film-reel.webp",
+        "128": "webp/128/film-reel.webp",
+        "256": "webp/256/film-reel.webp"
+      }
+    },
+    {
+      "id": "flame",
+      "name": "Flame",
+      "tags": [
+        "fire",
+        "hot",
+        "heat",
+        "streak",
+        "dirty"
+      ],
+      "svg": "svg/flame.svg",
+      "webp": {
+        "32": "webp/32/flame.webp",
+        "64": "webp/64/flame.webp",
+        "128": "webp/128/flame.webp",
+        "256": "webp/256/flame.webp"
+      }
+    },
+    {
+      "id": "gamepad",
+      "name": "Game Controller",
+      "tags": [
+        "game",
+        "gaming",
+        "play",
+        "video games",
+        "controller"
+      ],
+      "svg": "svg/gamepad.svg",
+      "webp": {
+        "32": "webp/32/gamepad.webp",
+        "64": "webp/64/gamepad.webp",
+        "128": "webp/128/gamepad.webp",
+        "256": "webp/256/gamepad.webp"
+      }
+    },
+    {
+      "id": "gear",
+      "name": "Settings",
+      "tags": [
+        "settings",
+        "gear",
+        "cog",
+        "options",
+        "preferences"
+      ],
+      "svg": "svg/gear.svg",
+      "webp": {
+        "32": "webp/32/gear.webp",
+        "64": "webp/64/gear.webp",
+        "128": "webp/128/gear.webp",
+        "256": "webp/256/gear.webp"
+      }
+    },
+    {
+      "id": "gift",
+      "name": "Gift",
+      "tags": [
+        "present",
+        "birthday",
+        "surprise",
+        "celebrate",
+        "treat"
+      ],
+      "svg": "svg/gift.svg",
+      "webp": {
+        "32": "webp/32/gift.webp",
+        "64": "webp/64/gift.webp",
+        "128": "webp/128/gift.webp",
+        "256": "webp/256/gift.webp"
+      }
+    },
+    {
+      "id": "globe",
+      "name": "Globe",
+      "tags": [
+        "world",
+        "travel",
+        "earth",
+        "international"
+      ],
+      "svg": "svg/globe.svg",
+      "webp": {
+        "32": "webp/32/globe.webp",
+        "64": "webp/64/globe.webp",
+        "128": "webp/128/globe.webp",
+        "256": "webp/256/globe.webp"
+      }
+    },
+    {
+      "id": "headphones",
+      "name": "Headphones",
+      "tags": [
+        "music",
+        "listen",
+        "audio",
+        "songs",
+        "playlist"
+      ],
+      "svg": "svg/headphones.svg",
+      "webp": {
+        "32": "webp/32/headphones.webp",
+        "64": "webp/64/headphones.webp",
+        "128": "webp/128/headphones.webp",
+        "256": "webp/256/headphones.webp"
+      }
+    },
+    {
+      "id": "heart-arrow",
+      "name": "Heart and Arrow",
+      "tags": [
+        "in sync",
+        "cupid",
+        "love",
+        "match",
+        "crush"
+      ],
+      "svg": "svg/heart-arrow.svg",
+      "webp": {
+        "32": "webp/32/heart-arrow.webp",
+        "64": "webp/64/heart-arrow.webp",
+        "128": "webp/128/heart-arrow.webp",
+        "256": "webp/256/heart-arrow.webp"
+      }
+    },
+    {
+      "id": "heart",
+      "name": "Heart",
+      "tags": [
+        "love",
+        "romance",
+        "couple",
+        "like"
+      ],
+      "svg": "svg/heart.svg",
+      "webp": {
+        "32": "webp/32/heart.webp",
+        "64": "webp/64/heart.webp",
+        "128": "webp/128/heart.webp",
+        "256": "webp/256/heart.webp"
+      }
+    },
+    {
+      "id": "hot-sauce",
+      "name": "Hot sauce",
+      "tags": [
+        "spicy",
+        "hot",
+        "food",
+        "sauce",
+        "kick"
+      ],
+      "svg": "svg/hot-sauce.svg",
+      "webp": {
+        "32": "webp/32/hot-sauce.webp",
+        "64": "webp/64/hot-sauce.webp",
+        "128": "webp/128/hot-sauce.webp",
+        "256": "webp/256/hot-sauce.webp"
+      }
+    },
+    {
+      "id": "house",
+      "name": "House",
+      "tags": [
+        "home",
+        "cosy",
+        "stay in",
+        "family",
+        "move in"
+      ],
+      "svg": "svg/house.svg",
+      "webp": {
+        "32": "webp/32/house.webp",
+        "64": "webp/64/house.webp",
+        "128": "webp/128/house.webp",
+        "256": "webp/256/house.webp"
+      }
+    },
+    {
+      "id": "key",
+      "name": "Room key",
+      "tags": [
+        "hotel",
+        "room",
+        "getaway",
+        "stay",
+        "weekend away",
+        "vintage"
+      ],
+      "svg": "svg/key.svg",
+      "webp": {
+        "32": "webp/32/key.webp",
+        "64": "webp/64/key.webp",
+        "128": "webp/128/key.webp",
+        "256": "webp/256/key.webp"
+      }
+    },
+    {
+      "id": "laugh",
+      "name": "Laughing",
+      "tags": [
+        "laugh",
+        "tears of joy",
+        "funny",
+        "lol",
+        "hilarious"
+      ],
+      "svg": "svg/laugh.svg",
+      "webp": {
+        "32": "webp/32/laugh.webp",
+        "64": "webp/64/laugh.webp",
+        "128": "webp/128/laugh.webp",
+        "256": "webp/256/laugh.webp"
+      }
+    },
+    {
+      "id": "lightning",
+      "name": "Lightning",
+      "tags": [
+        "energy",
+        "fast",
+        "electric",
+        "spark",
+        "chemistry",
+        "power"
+      ],
+      "svg": "svg/lightning.svg",
+      "webp": {
+        "32": "webp/32/lightning.webp",
+        "64": "webp/64/lightning.webp",
+        "128": "webp/128/lightning.webp",
+        "256": "webp/256/lightning.webp"
+      }
+    },
+    {
+      "id": "lips",
+      "name": "Lips",
+      "tags": [
+        "lips",
+        "kiss",
+        "flirty",
+        "mouth",
+        "sexy"
+      ],
+      "svg": "svg/lips.svg",
+      "webp": {
+        "32": "webp/32/lips.webp",
+        "64": "webp/64/lips.webp",
+        "128": "webp/128/lips.webp",
+        "256": "webp/256/lips.webp"
+      }
+    },
+    {
+      "id": "lipstick",
+      "name": "Lipstick",
+      "tags": [
+        "makeup",
+        "kiss",
+        "glam",
+        "date night",
+        "beauty"
+      ],
+      "svg": "svg/lipstick.svg",
+      "webp": {
+        "32": "webp/32/lipstick.webp",
+        "64": "webp/64/lipstick.webp",
+        "128": "webp/128/lipstick.webp",
+        "256": "webp/256/lipstick.webp"
+      }
+    },
+    {
+      "id": "lock",
+      "name": "Lock",
+      "tags": [
+        "lock",
+        "private",
+        "secret",
+        "secure",
+        "locked"
+      ],
+      "svg": "svg/lock.svg",
+      "webp": {
+        "32": "webp/32/lock.webp",
+        "64": "webp/64/lock.webp",
+        "128": "webp/128/lock.webp",
+        "256": "webp/256/lock.webp"
+      }
+    },
+    {
+      "id": "love-letter",
+      "name": "Love Letter",
+      "tags": [
+        "love letter",
+        "message",
+        "invite",
+        "romance",
+        "envelope"
+      ],
+      "svg": "svg/love-letter.svg",
+      "webp": {
+        "32": "webp/32/love-letter.webp",
+        "64": "webp/64/love-letter.webp",
+        "128": "webp/128/love-letter.webp",
+        "256": "webp/256/love-letter.webp"
+      }
+    },
+    {
+      "id": "mask",
+      "name": "Masquerade Mask",
+      "tags": [
+        "mystery",
+        "masquerade",
+        "after dark",
+        "secret",
+        "party",
+        "disguise"
+      ],
+      "svg": "svg/mask.svg",
+      "webp": {
+        "32": "webp/32/mask.webp",
+        "64": "webp/64/mask.webp",
+        "128": "webp/128/mask.webp",
+        "256": "webp/256/mask.webp"
+      }
+    },
+    {
+      "id": "money-bag",
+      "name": "Money bag",
+      "tags": [
+        "money",
+        "cash",
+        "rich",
+        "win",
+        "jackpot",
+        "dollar"
+      ],
+      "svg": "svg/money-bag.svg",
+      "webp": {
+        "32": "webp/32/money-bag.webp",
+        "64": "webp/64/money-bag.webp",
+        "128": "webp/128/money-bag.webp",
+        "256": "webp/256/money-bag.webp"
+      }
+    },
+    {
+      "id": "moon",
+      "name": "Moon",
+      "tags": [
+        "night",
+        "moon",
+        "sleep",
+        "truth",
+        "dream",
+        "crescent"
+      ],
+      "svg": "svg/moon.svg",
+      "webp": {
+        "32": "webp/32/moon.webp",
+        "64": "webp/64/moon.webp",
+        "128": "webp/128/moon.webp",
+        "256": "webp/256/moon.webp"
+      }
+    },
+    {
+      "id": "palm",
+      "name": "Palm Island",
+      "tags": [
+        "island",
+        "beach",
+        "holiday",
+        "tropical",
+        "fantasy island",
+        "summer",
+        "palm tree"
+      ],
+      "svg": "svg/palm.svg",
+      "webp": {
+        "32": "webp/32/palm.webp",
+        "64": "webp/64/palm.webp",
+        "128": "webp/128/palm.webp",
+        "256": "webp/256/palm.webp"
+      }
+    },
+    {
+      "id": "party-popper",
+      "name": "Party Popper",
+      "tags": [
+        "party",
+        "celebrate",
+        "confetti",
+        "winner",
+        "congrats"
+      ],
+      "svg": "svg/party-popper.svg",
+      "webp": {
+        "32": "webp/32/party-popper.webp",
+        "64": "webp/64/party-popper.webp",
+        "128": "webp/128/party-popper.webp",
+        "256": "webp/256/party-popper.webp"
+      }
+    },
+    {
+      "id": "paw",
+      "name": "Paw Print",
+      "tags": [
+        "animals",
+        "pet",
+        "dog",
+        "cat",
+        "paw"
+      ],
+      "svg": "svg/paw.svg",
+      "webp": {
+        "32": "webp/32/paw.webp",
+        "64": "webp/64/paw.webp",
+        "128": "webp/128/paw.webp",
+        "256": "webp/256/paw.webp"
+      }
+    },
+    {
+      "id": "peach",
+      "name": "Peach",
+      "tags": [
+        "fruit",
+        "cheeky",
+        "flirty",
+        "summer",
+        "sweet"
+      ],
+      "svg": "svg/peach.svg",
+      "webp": {
+        "32": "webp/32/peach.webp",
+        "64": "webp/64/peach.webp",
+        "128": "webp/128/peach.webp",
+        "256": "webp/256/peach.webp"
+      }
+    },
+    {
+      "id": "peek",
+      "name": "No Peeking",
+      "tags": [
+        "peek",
+        "no peeking",
+        "hide",
+        "shy",
+        "cover eyes"
+      ],
+      "svg": "svg/peek.svg",
+      "webp": {
+        "32": "webp/32/peek.webp",
+        "64": "webp/64/peek.webp",
+        "128": "webp/128/peek.webp",
+        "256": "webp/256/peek.webp"
+      }
+    },
+    {
+      "id": "person",
+      "name": "Person",
+      "tags": [
+        "person",
+        "solo",
+        "single player",
+        "user",
+        "me"
+      ],
+      "svg": "svg/person.svg",
+      "webp": {
+        "32": "webp/32/person.webp",
+        "64": "webp/64/person.webp",
+        "128": "webp/128/person.webp",
+        "256": "webp/256/person.webp"
+      }
+    },
+    {
+      "id": "phone",
+      "name": "Phone",
+      "tags": [
+        "phone",
+        "call",
+        "text",
+        "long distance",
+        "love",
+        "message"
+      ],
+      "svg": "svg/phone.svg",
+      "webp": {
+        "32": "webp/32/phone.webp",
+        "64": "webp/64/phone.webp",
+        "128": "webp/128/phone.webp",
+        "256": "webp/256/phone.webp"
+      }
+    },
+    {
+      "id": "pizza",
+      "name": "Pizza",
+      "tags": [
+        "food",
+        "slice",
+        "party",
+        "takeaway",
+        "night in"
+      ],
+      "svg": "svg/pizza.svg",
+      "webp": {
+        "32": "webp/32/pizza.webp",
+        "64": "webp/64/pizza.webp",
+        "128": "webp/128/pizza.webp",
+        "256": "webp/256/pizza.webp"
+      }
+    },
+    {
+      "id": "plane",
+      "name": "Aeroplane",
+      "tags": [
+        "travel",
+        "flight",
+        "holiday",
+        "trip",
+        "abroad",
+        "long distance"
+      ],
+      "svg": "svg/plane.svg",
+      "webp": {
+        "32": "webp/32/plane.webp",
+        "64": "webp/64/plane.webp",
+        "128": "webp/128/plane.webp",
+        "256": "webp/256/plane.webp"
+      }
+    },
+    {
+      "id": "ring",
+      "name": "Ring",
+      "tags": [
+        "ring",
+        "engagement",
+        "proposal",
+        "marry",
+        "diamond"
+      ],
+      "svg": "svg/ring.svg",
+      "webp": {
+        "32": "webp/32/ring.webp",
+        "64": "webp/64/ring.webp",
+        "128": "webp/128/ring.webp",
+        "256": "webp/256/ring.webp"
+      }
+    },
+    {
+      "id": "robot",
+      "name": "Robot",
+      "tags": [
+        "robot",
+        "bot",
+        "ai",
+        "computer",
+        "machine"
+      ],
+      "svg": "svg/robot.svg",
+      "webp": {
+        "32": "webp/32/robot.webp",
+        "64": "webp/64/robot.webp",
+        "128": "webp/128/robot.webp",
+        "256": "webp/256/robot.webp"
+      }
+    },
+    {
+      "id": "rose",
+      "name": "Rose",
+      "tags": [
+        "rose",
+        "flower",
+        "romance",
+        "valentine",
+        "date"
+      ],
+      "svg": "svg/rose.svg",
+      "webp": {
+        "32": "webp/32/rose.webp",
+        "64": "webp/64/rose.webp",
+        "128": "webp/128/rose.webp",
+        "256": "webp/256/rose.webp"
+      }
+    },
+    {
+      "id": "satellite",
+      "name": "Satellite Dish",
+      "tags": [
+        "long distance",
+        "apart",
+        "remote",
+        "online",
+        "signal"
+      ],
+      "svg": "svg/satellite.svg",
+      "webp": {
+        "32": "webp/32/satellite.webp",
+        "64": "webp/64/satellite.webp",
+        "128": "webp/128/satellite.webp",
+        "256": "webp/256/satellite.webp"
+      }
+    },
+    {
+      "id": "sick",
+      "name": "Queasy",
+      "tags": [
+        "sick",
+        "nauseated",
+        "queasy",
+        "gross",
+        "ill"
+      ],
+      "svg": "svg/sick.svg",
+      "webp": {
+        "32": "webp/32/sick.webp",
+        "64": "webp/64/sick.webp",
+        "128": "webp/128/sick.webp",
+        "256": "webp/256/sick.webp"
+      }
+    },
+    {
+      "id": "snowflake",
+      "name": "Snowflake",
+      "tags": [
+        "snow",
+        "winter",
+        "cold",
+        "ice",
+        "frozen",
+        "christmas"
+      ],
+      "svg": "svg/snowflake.svg",
+      "webp": {
+        "32": "webp/32/snowflake.webp",
+        "64": "webp/64/snowflake.webp",
+        "128": "webp/128/snowflake.webp",
+        "256": "webp/256/snowflake.webp"
+      }
+    },
+    {
+      "id": "sun",
+      "name": "Sun",
+      "tags": [
+        "summer",
+        "sunny",
+        "hot",
+        "weather",
+        "day",
+        "bright"
+      ],
+      "svg": "svg/sun.svg",
+      "webp": {
+        "32": "webp/32/sun.webp",
+        "64": "webp/64/sun.webp",
+        "128": "webp/128/sun.webp",
+        "256": "webp/256/sun.webp"
+      }
+    },
+    {
+      "id": "taco",
+      "name": "Taco",
+      "tags": [
+        "food",
+        "tuesday",
+        "mexican",
+        "takeaway",
+        "party"
+      ],
+      "svg": "svg/taco.svg",
+      "webp": {
+        "32": "webp/32/taco.webp",
+        "64": "webp/64/taco.webp",
+        "128": "webp/128/taco.webp",
+        "256": "webp/256/taco.webp"
+      }
+    },
+    {
+      "id": "teddy",
+      "name": "Teddy Bear",
+      "tags": [
+        "teddy",
+        "bear",
+        "cuddle",
+        "soft",
+        "toy"
+      ],
+      "svg": "svg/teddy.svg",
+      "webp": {
+        "32": "webp/32/teddy.webp",
+        "64": "webp/64/teddy.webp",
+        "128": "webp/128/teddy.webp",
+        "256": "webp/256/teddy.webp"
+      }
+    },
+    {
+      "id": "trophy",
+      "name": "Trophy",
+      "tags": [
+        "win",
+        "champion",
+        "award",
+        "best",
+        "first place"
+      ],
+      "svg": "svg/trophy.svg",
+      "webp": {
+        "32": "webp/32/trophy.webp",
+        "64": "webp/64/trophy.webp",
+        "128": "webp/128/trophy.webp",
+        "256": "webp/256/trophy.webp"
+      }
+    },
+    {
+      "id": "two-hearts",
+      "name": "Two Hearts",
+      "tags": [
+        "couple",
+        "love",
+        "two",
+        "together",
+        "romance"
+      ],
+      "svg": "svg/two-hearts.svg",
+      "webp": {
+        "32": "webp/32/two-hearts.webp",
+        "64": "webp/64/two-hearts.webp",
+        "128": "webp/128/two-hearts.webp",
+        "256": "webp/256/two-hearts.webp"
+      }
+    },
+    {
+      "id": "xmas-tree",
+      "name": "Christmas Tree",
+      "tags": [
+        "christmas",
+        "xmas",
+        "holiday",
+        "festive",
+        "winter",
+        "tree"
+      ],
+      "svg": "svg/xmas-tree.svg",
+      "webp": {
+        "32": "webp/32/xmas-tree.webp",
+        "64": "webp/64/xmas-tree.webp",
+        "128": "webp/128/xmas-tree.webp",
+        "256": "webp/256/xmas-tree.webp"
+      }
+    }
+  ]
+}
