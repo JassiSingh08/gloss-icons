@@ -11,6 +11,9 @@ const board = 'M19 42 L77 42 Q80 42 80 45 L80 80 Q80 84 76 84 L20 84 Q16 84 16 8
 module.exports = {
   id: 'clapper',
   name: 'Clapperboard',
+  emoji: '🎬',
+  group: 'Objects',
+  subgroup: 'light & video',
   tags: ['film', 'movie', 'cinema', 'action', 'scene', 'date night'],
   tone: 'black',
   body: [arm, board],

@@ -4,6 +4,9 @@ const body =
 module.exports = {
   id: 'gamepad',
   name: 'Game Controller',
+  emoji: '🎮',
+  group: 'Activities',
+  subgroup: 'game',
   tags: ['game', 'gaming', 'play', 'video games', 'controller'],
   tone: 'white',
   body,

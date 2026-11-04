@@ -12,6 +12,9 @@ const seal = turn(HEART.replace(/(-?[\d.]+) (-?[\d.]+)/g, (_, x, y) => `${(48 + 
 module.exports = {
   id: 'love-letter',
   name: 'Love Letter',
+  emoji: '💌',
+  group: 'Smileys & Emotion',
+  subgroup: 'heart',
   tags: ['love letter', 'message', 'invite', 'romance', 'envelope'],
   tone: 'cream',
   body,

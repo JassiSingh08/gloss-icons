@@ -2,6 +2,9 @@ const body = 'M45.5 13.5 Q48 11.5 50.5 13.5 L82 44 Q84.5 47 81 49.5 L76 49.5 L76
 module.exports = {
   id: 'house',
   name: 'House',
+  emoji: '🏠',
+  group: 'Travel & Places',
+  subgroup: 'place-building',
   tags: ['home', 'cosy', 'stay in', 'family', 'move in'],
   tone: 'cream',
   body,

@@ -2,6 +2,9 @@ const body = 'M48 16 A32 32 0 1 1 47.99 16 Z';
 module.exports = {
   id: 'globe',
   name: 'Globe',
+  emoji: '🌍',
+  group: 'Travel & Places',
+  subgroup: 'place-map',
   tags: ['world', 'travel', 'earth', 'international'],
   tone: 'blue',
   body,

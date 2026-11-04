@@ -5,6 +5,9 @@ const rim = 'M22.32 28.32 A25 9.5 45 0 1 57.68 63.68 A25 9.5 45 0 1 22.32 28.32 
 module.exports = {
   id: 'satellite',
   name: 'Satellite Dish',
+  emoji: '📡',
+  group: 'Objects',
+  subgroup: 'science',
   tags: ['long distance', 'apart', 'remote', 'online', 'signal'],
   tone: 'silver',
   body,

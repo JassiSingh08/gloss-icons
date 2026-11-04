@@ -2,6 +2,9 @@ const body = 'M48 11 C55 26 71 33 73 54 C75 72 63 85 48 85 C33 85 21 74 23 56 C2
 module.exports = {
   id: 'flame',
   name: 'Flame',
+  emoji: '🔥',
+  group: 'Travel & Places',
+  subgroup: 'sky & weather',
   tags: ['fire', 'hot', 'heat', 'streak', 'dirty'],
   tone: 'orange',
   body,

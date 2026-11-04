@@ -23,6 +23,11 @@ module.exports = {
   silver: ['#FFFFFF', '#D9DCE8', '#8E93AD', '#3A3E52'],
   grey: ['#F2F2F7', '#B8B8C7', '#6E6E80', '#2E2E3A'],
   black: ['#6E6E85', '#2E2E3D', '#141420', '#05050A'],
+  // Hands and people: the warm yellow-orange of the hands in peek.
+  amber: ['#FFE9A0', '#FFB627', '#B85F00', '#5E2E00'],
+  sand: ['#FFF4D6', '#E9C98F', '#B08A4E', '#5C4420'],
+  olive: ['#E3EFA0', '#9AAE3C', '#5A6B14', '#273005'],
+  slate: ['#DCE6F2', '#8DA0BA', '#4D5F7A', '#1E2A3D'],
   // Hot centre of a flame: white heart fading to amber.
   flame: ['#FFFFFF', '#FFE35C', '#FFB000', '#FF8C00'],
 };

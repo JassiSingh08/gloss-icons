@@ -2,6 +2,9 @@ const body = 'M41 33 C24 40 15 56 17 70 C19 80 30 84 48 84 C66 84 77 80 79 70 C8
 module.exports = {
   id: 'money-bag',
   name: 'Money bag',
+  emoji: '💰',
+  group: 'Objects',
+  subgroup: 'money',
   tags: ['money', 'cash', 'rich', 'win', 'jackpot', 'dollar'],
   tone: 'cream',
   body,

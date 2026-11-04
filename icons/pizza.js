@@ -3,6 +3,9 @@ const body = 'M13 25 C28 11 66 8 83 21 C85 23 85 26 83 28 L73.9 45 C77 47 79.5 5
 module.exports = {
   id: 'pizza',
   name: 'Pizza',
+  emoji: '🍕',
+  group: 'Food & Drink',
+  subgroup: 'food-prepared',
   tags: ['food', 'slice', 'party', 'takeaway', 'night in'],
   tone: 'yellow',
   body,

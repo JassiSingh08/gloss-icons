@@ -4,6 +4,9 @@ const body =
 module.exports = {
   id: 'car',
   name: 'Car',
+  emoji: '🚗',
+  group: 'Travel & Places',
+  subgroup: 'transport-ground',
   tags: ['car', 'road trip', 'drive', 'travel', 'journey'],
   tone: 'red',
   body,

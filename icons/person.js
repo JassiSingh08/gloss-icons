@@ -3,6 +3,9 @@ const torso = 'M48 50 C66 50 79 61 79 76 Q79 83 72 83 L24 83 Q17 83 17 76 C17 61
 module.exports = {
   id: 'person',
   name: 'Person',
+  emoji: '👤',
+  group: 'People & Body',
+  subgroup: 'person-symbol',
   tags: ['person', 'solo', 'single player', 'user', 'me'],
   tone: 'blue',
   body: [head, torso],

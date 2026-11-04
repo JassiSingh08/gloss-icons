@@ -2,6 +2,9 @@ const body = 'M16 38 Q16 34 20 34 L76 34 Q80 34 80 38 L80 45 Q80 47 78 47 L76 47
 module.exports = {
   id: 'gift',
   name: 'Gift',
+  emoji: '🎁',
+  group: 'Activities',
+  subgroup: 'event',
   tags: ['present', 'birthday', 'surprise', 'celebrate', 'treat'],
   tone: 'red',
   body,

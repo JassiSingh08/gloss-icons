@@ -12,6 +12,9 @@ const back = 'M-31 -17 C-31 -19.5 -29 -20.5 -26.5 -19.5 C-12 -15.5 20 -15.5 34.5
 module.exports = {
   id: 'taco',
   name: 'Taco',
+  emoji: '🌮',
+  group: 'Food & Drink',
+  subgroup: 'food-prepared',
   tags: ['food', 'tuesday', 'mexican', 'takeaway', 'party'],
   tone: 'gold',
   body: place(front),

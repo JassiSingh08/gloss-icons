@@ -15,6 +15,9 @@ const HANDS = [
 module.exports = {
   id: 'peek',
   name: 'No Peeking',
+  emoji: '🫣',
+  group: 'Smileys & Emotion',
+  subgroup: 'face-hand',
   tags: ['peek', 'no peeking', 'hide', 'shy', 'cover eyes'],
   tone: 'yellow',
   body,

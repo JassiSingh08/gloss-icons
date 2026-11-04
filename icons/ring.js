@@ -3,6 +3,9 @@ const band = 'M48 46 C63.5 46 75 54.5 75 64.5 C75 74.5 63.5 83 48 83 C32.5 83 21
 module.exports = {
   id: 'ring',
   name: 'Ring',
+  emoji: '💍',
+  group: 'Objects',
+  subgroup: 'clothing',
   tags: ['ring', 'engagement', 'proposal', 'marry', 'diamond'],
   tone: 'gold',
   body: band,

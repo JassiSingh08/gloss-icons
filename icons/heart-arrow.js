@@ -13,6 +13,9 @@ const at = (t, s = 0) => `${(T[0] + d[0] * t + n[0] * s).toFixed(2)} ${(T[1] + d
 module.exports = {
   id: 'heart-arrow',
   name: 'Heart and Arrow',
+  emoji: '💘',
+  group: 'Smileys & Emotion',
+  subgroup: 'heart',
   tags: ['in sync', 'cupid', 'love', 'match', 'crush'],
   tone: 'red',
   body,

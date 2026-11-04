@@ -5,6 +5,9 @@ const heart = 'M48 60 C38 53 33.5 47.5 34.5 42 C35.5 36.5 42.5 34.5 48 40 C53.5 
 module.exports = {
   id: 'phone',
   name: 'Phone',
+  emoji: '📱',
+  group: 'Objects',
+  subgroup: 'phone',
   tags: ['phone', 'call', 'text', 'long distance', 'love', 'message'],
   tone: 'navy',
   body,

@@ -3,6 +3,9 @@ const ball = 'M48 13 A27 27 0 1 1 47.99 13 Z';
 module.exports = {
   id: 'crystal-ball',
   name: 'Crystal ball',
+  emoji: '🔮',
+  group: 'Activities',
+  subgroup: 'game',
   tags: ['future', 'fortune', 'mystery', 'deep questions', 'predict', 'magic'],
   tone: 'purple',
   body,

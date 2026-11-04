@@ -2,6 +2,9 @@ const body = 'M48 18 A32 32 0 1 1 47.99 18 Z';
 module.exports = {
   id: 'badge-18',
   name: '18+',
+  emoji: '🔞',
+  group: 'Symbols',
+  subgroup: 'warning',
   tags: ['18+', 'adults only', 'mature', 'nsfw', 'age'],
   tone: 'red',
   body,

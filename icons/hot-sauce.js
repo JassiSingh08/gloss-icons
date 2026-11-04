@@ -2,6 +2,7 @@ const body = 'M34 84 Q30 84 30 80 L30 50 C30 42 42 38 43 31 L43 25 L41 25 L41 18
 module.exports = {
   id: 'hot-sauce',
   name: 'Hot sauce',
+  group: 'Extras',
   tags: ['spicy', 'hot', 'food', 'sauce', 'kick'],
   tone: 'red',
   body,

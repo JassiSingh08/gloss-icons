@@ -38,6 +38,9 @@ function tiles() {
 module.exports = {
   id: 'disco-ball',
   name: 'Disco Ball',
+  emoji: '🪩',
+  group: 'Activities',
+  subgroup: 'game',
   tags: ['party', 'dance', 'disco', 'night out', 'club', 'mirror ball'],
   tone: 'silver',
   body,

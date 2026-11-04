@@ -18,6 +18,9 @@ function rays() {
 module.exports = {
   id: 'sun',
   name: 'Sun',
+  emoji: '☀️',
+  group: 'Travel & Places',
+  subgroup: 'sky & weather',
   tags: ['summer', 'sunny', 'hot', 'weather', 'day', 'bright'],
   tone: 'gold',
   body,

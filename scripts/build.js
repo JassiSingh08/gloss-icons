@@ -20,6 +20,8 @@ const arg = (name) => { const i = process.argv.indexOf(name); return i > -1 ? pr
 // people draw at once without one half-finished file breaking everyone's preview.
 const only = arg('--only')?.split(',');
 const sheetPath = arg('--out') ?? path.join(root, 'docs/sheet.png');
+// --px 64 draws the sheet's icons at that size, to check an icon still reads small.
+const px = Number(arg('--px') ?? 100);
 
 const specs = fs
   .readdirSync(path.join(root, 'icons'))
@@ -34,8 +36,8 @@ const specs = fs
 const rendered = specs.map((spec) => ({ spec, svg: render(spec) }));
 
 function contactSheet() {
-  const cols = 8;
-  const cell = 132;
+  const cols = px < 80 ? 12 : 8;
+  const cell = px + 32;
   const rows = Math.ceil(rendered.length / cols);
   const width = cols * cell + 24;
   const height = rows * (cell + 22) + 24;
@@ -45,8 +47,8 @@ function contactSheet() {
       const y = 12 + Math.floor(i / cols) * (cell + 22);
       const inner = svg.replace(/^<svg[^>]*>/, '').replace(/<\/svg>\s*$/, '');
       return `<rect x="${x + 4}" y="${y + 4}" width="${cell - 8}" height="${cell - 8}" rx="18" fill="#1A1526" stroke="#33294A"/>
-        <svg x="${x + 16}" y="${y + 12}" width="${cell - 32}" height="${cell - 32}" viewBox="0 0 96 96">${inner}</svg>
-        <text x="${x + cell / 2}" y="${y + cell + 12}" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#A79FB8">${spec.id}</text>`;
+        <svg x="${x + 16}" y="${y + 12}" width="${px}" height="${px}" viewBox="0 0 96 96">${inner}</svg>
+        <text x="${x + cell / 2}" y="${y + cell + 12}" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="${px < 80 ? 9 : 12}" fill="#A79FB8">${spec.id.length > 22 ? `${spec.id.slice(0, 21)}…` : spec.id}</text>`;
     })
     .join('');
   const sheet = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}"><rect width="100%" height="100%" fill="#0E0B16"/>${tiles}</svg>`;
@@ -86,6 +88,9 @@ async function main() {
     manifest.push({
       id: spec.id,
       name: spec.name,
+      emoji: spec.emoji,
+      group: spec.group,
+      subgroup: spec.subgroup,
       tags: spec.tags,
       svg: `svg/${spec.id}.svg`,
       webp: Object.fromEntries(SIZES.map((s) => [s, `webp/${s}/${spec.id}.webp`])),

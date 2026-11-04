@@ -16,6 +16,7 @@ const body = [circle(CX, CY, RAD, false), ...holes, circle(CX, CY, 3.2, true)];
 module.exports = {
   id: 'film-reel',
   name: 'Film Reel',
+  group: 'Extras',
   tags: ['movie', 'film', 'cinema', 'movie night', 'video'],
   tone: 'silver',
   body,

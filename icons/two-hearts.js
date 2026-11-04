@@ -13,6 +13,9 @@ const back = place(0.6, -16, 35, 38);
 module.exports = {
   id: 'two-hearts',
   name: 'Two Hearts',
+  emoji: '💕',
+  group: 'Smileys & Emotion',
+  subgroup: 'heart',
   tags: ['couple', 'love', 'two', 'together', 'romance'],
   tone: 'pink',
   body: front,

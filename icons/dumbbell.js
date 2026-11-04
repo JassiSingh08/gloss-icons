@@ -28,6 +28,7 @@ const body = rounded([
 module.exports = {
   id: 'dumbbell',
   name: 'Dumbbell',
+  group: 'Extras',
   tags: ['fitness', 'gym', 'workout', 'strong', 'exercise', 'weights'],
   tone: 'teal',
   body,

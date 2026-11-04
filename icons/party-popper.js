@@ -4,6 +4,9 @@ const mouth = 'M39.98 33.98 A17 6.8 45 0 1 64.02 58.02 A17 6.8 45 0 1 39.98 33.9
 module.exports = {
   id: 'party-popper',
   name: 'Party Popper',
+  emoji: '🎉',
+  group: 'Activities',
+  subgroup: 'event',
   tags: ['party', 'celebrate', 'confetti', 'winner', 'congrats'],
   tone: 'gold',
   body,

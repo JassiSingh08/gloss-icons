@@ -14,6 +14,9 @@ function star(cx, cy, R, r) {
 module.exports = {
   id: 'xmas-tree',
   name: 'Christmas Tree',
+  emoji: '🎄',
+  group: 'Activities',
+  subgroup: 'event',
   tags: ['christmas', 'xmas', 'holiday', 'festive', 'winter', 'tree'],
   tone: 'green',
   body,

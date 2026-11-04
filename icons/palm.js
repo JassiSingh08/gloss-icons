@@ -7,6 +7,9 @@ const trunk = 'M48.5 35 C48 48 46 60 42 72 L50 72 C53 60 54.5 48 54 35 Z';
 module.exports = {
   id: 'palm',
   name: 'Palm Island',
+  emoji: '🏝️',
+  group: 'Travel & Places',
+  subgroup: 'place-geographic',
   tags: ['island', 'beach', 'holiday', 'tropical', 'fantasy island', 'summer', 'palm tree'],
   tone: 'gold',
   body: [fronds, island],

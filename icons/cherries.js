@@ -3,6 +3,9 @@ const right = 'M64 53 A15 15 0 1 1 63.99 53 Z';
 module.exports = {
   id: 'cherries',
   name: 'Cherries',
+  emoji: '🍒',
+  group: 'Food & Drink',
+  subgroup: 'food-fruit',
   tags: ['fruit', 'pair', 'couple', 'sweet', 'flirty'],
   tone: 'red',
   body: [left, right],

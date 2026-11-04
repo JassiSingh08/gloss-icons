@@ -4,6 +4,9 @@ const handle = 'M36 30 L36 22.5 Q36 16 42.5 16 L53.5 16 Q60 16 60 22.5 L60 30 L5
 module.exports = {
   id: 'briefcase',
   name: 'Briefcase',
+  emoji: '💼',
+  group: 'Objects',
+  subgroup: 'office',
   tags: ['work', 'office', 'business', 'job', 'career'],
   tone: 'brown',
   body,

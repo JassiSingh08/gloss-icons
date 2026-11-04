@@ -27,6 +27,9 @@ const body = outline();
 module.exports = {
   id: 'blossom',
   name: 'Blossom',
+  emoji: '🌼',
+  group: 'Animals & Nature',
+  subgroup: 'plant-flower',
   tags: ['flower', 'spring', 'holi', 'bloom', 'nature', 'pretty'],
   tone: 'pink',
   body,

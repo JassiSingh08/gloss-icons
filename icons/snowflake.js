@@ -53,6 +53,9 @@ const body = rounded(points());
 module.exports = {
   id: 'snowflake',
   name: 'Snowflake',
+  emoji: '❄️',
+  group: 'Travel & Places',
+  subgroup: 'sky & weather',
   tags: ['snow', 'winter', 'cold', 'ice', 'frozen', 'christmas'],
   tone: 'sky',
   body,

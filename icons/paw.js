@@ -17,6 +17,9 @@ const body = [pad, ...toes.map((t) => ellipse(...t))];
 module.exports = {
   id: 'paw',
   name: 'Paw Print',
+  emoji: '🐾',
+  group: 'Animals & Nature',
+  subgroup: 'animal-mammal',
   tags: ['animals', 'pet', 'dog', 'cat', 'paw'],
   tone: 'orange',
   body,

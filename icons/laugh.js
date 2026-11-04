@@ -4,6 +4,9 @@ const drop = 'M0 -10 C2.5 -5.5 5.5 -2.5 5.5 1 A5.5 5.5 0 0 1 -5.5 1 C-5.5 -2.5 -
 module.exports = {
   id: 'laugh',
   name: 'Laughing',
+  emoji: '😂',
+  group: 'Smileys & Emotion',
+  subgroup: 'face-smiling',
   tags: ['laugh', 'tears of joy', 'funny', 'lol', 'hilarious'],
   tone: 'yellow',
   body,

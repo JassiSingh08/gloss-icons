@@ -2,6 +2,9 @@ const body = 'M31.2 84 Q28.8 84 28.8 82 L28.8 57 Q28.8 55 31.2 55 L32.4 55 L32.4
 module.exports = {
   id: 'lipstick',
   name: 'Lipstick',
+  emoji: '💄',
+  group: 'Objects',
+  subgroup: 'clothing',
   tags: ['makeup', 'kiss', 'glam', 'date night', 'beauty'],
   tone: 'gold',
   body,

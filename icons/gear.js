@@ -17,6 +17,9 @@ const body = d;
 module.exports = {
   id: 'gear',
   name: 'Settings',
+  emoji: '⚙️',
+  group: 'Objects',
+  subgroup: 'tool',
   tags: ['settings', 'gear', 'cog', 'options', 'preferences'],
   tone: 'grey',
   body,

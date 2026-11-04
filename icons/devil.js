@@ -2,6 +2,9 @@ const body = 'M48 22 A30 30 0 1 1 47.99 22 Z';
 module.exports = {
   id: 'devil',
   name: 'Devil',
+  emoji: '😈',
+  group: 'Smileys & Emotion',
+  subgroup: 'face-negative',
   tags: ['mischief', 'naughty', 'after dark', 'smirk'],
   tone: 'purple',
   body,

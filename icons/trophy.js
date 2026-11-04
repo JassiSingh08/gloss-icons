@@ -2,6 +2,9 @@ const body = 'M26 15 A22 4.5 0 0 1 70 15 C70 36 63 48 53 53 L53 61 C53 64 59 66 
 module.exports = {
   id: 'trophy',
   name: 'Trophy',
+  emoji: '🏆',
+  group: 'Activities',
+  subgroup: 'award-medal',
   tags: ['win', 'champion', 'award', 'best', 'first place'],
   tone: 'gold',
   body,

@@ -3,6 +3,9 @@ const body = 'M12 55 Q12 48 19 48 L20 48 L20 40 Q20 33 27 33 L69 33 Q76 33 76 40
 module.exports = {
   id: 'couch',
   name: 'Couch',
+  emoji: '🛋️',
+  group: 'Objects',
+  subgroup: 'household',
   tags: ['couch', 'sofa', 'together', 'home', 'cosy'],
   tone: 'teal',
   body,

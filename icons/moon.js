@@ -22,6 +22,9 @@ const body = crescent();
 module.exports = {
   id: 'moon',
   name: 'Moon',
+  emoji: '🌙',
+  group: 'Travel & Places',
+  subgroup: 'sky & weather',
   tags: ['night', 'moon', 'sleep', 'truth', 'dream', 'crescent'],
   tone: 'gold',
   body,

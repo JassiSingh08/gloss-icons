@@ -1,6 +1,9 @@
 module.exports = {
   id: 'dice',
   name: 'Dice',
+  emoji: '🎲',
+  group: 'Activities',
+  subgroup: 'game',
   tags: ['game', 'chance', 'classic', 'random'],
   tone: 'ivory',
   body: 'M48 13 Q51 13 54 14.5 L79 27 Q83 29 83 33 L83 62 Q83 66 79 68 L54 81 Q51 83 48 83 Q45 83 42 81 L17 68 Q13 66 13 62 L13 33 Q13 29 17 27 L42 14.5 Q45 13 48 13 Z',

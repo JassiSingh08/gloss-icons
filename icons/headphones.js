@@ -7,6 +7,9 @@ const right = 'M80 52 L72.5 52 Q66 52 66 60 L66 75 Q66 83.5 74 83.5 L76.5 83.5 Q
 module.exports = {
   id: 'headphones',
   name: 'Headphones',
+  emoji: '🎧',
+  group: 'Objects',
+  subgroup: 'music',
   tags: ['music', 'listen', 'audio', 'songs', 'playlist'],
   tone: 'magenta',
   body: [band, left, right],

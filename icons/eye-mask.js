@@ -4,6 +4,7 @@ const body =
 module.exports = {
   id: 'eye-mask',
   name: 'Sleep Mask',
+  group: 'Extras',
   tags: ['sleep', 'blindfold', 'rest', 'night', 'dream', 'after dark'],
   tone: 'purple',
   body,

@@ -2,6 +2,9 @@ const body = 'M63 27 C77 33 79 51 69 64 C59 77 42 84 25 83 C19 82.5 19 78 24.5 7
 module.exports = {
   id: 'chili',
   name: 'Chili',
+  emoji: '🌶️',
+  group: 'Food & Drink',
+  subgroup: 'food-vegetable',
   tags: ['spicy', 'hot', 'food', 'pepper', 'flirty'],
   tone: 'red',
   body,

@@ -2,6 +2,9 @@ const body = 'M48 80 C22 62 12 47 15 33 C18 20 35 15 48 28 C61 15 78 20 81 33 C8
 module.exports = {
   id: 'heart',
   name: 'Heart',
+  emoji: '❤️',
+  group: 'Smileys & Emotion',
+  subgroup: 'heart',
   tags: ['love', 'romance', 'couple', 'like'],
   tone: 'pink',
   body,

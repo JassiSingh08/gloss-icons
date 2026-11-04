@@ -4,6 +4,9 @@ const body =
 module.exports = {
   id: 'brain',
   name: 'Brain',
+  emoji: '🧠',
+  group: 'People & Body',
+  subgroup: 'body-parts',
   tags: ['mind', 'think', 'smart', 'puzzle', 'mind benders', 'brainy'],
   tone: 'pink',
   body,

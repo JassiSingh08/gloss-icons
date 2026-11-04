@@ -4,6 +4,9 @@ const parting = 'M14.5 59 C23 60 31 58 39 59.5 Q48 61.5 57 59 C65 57 73 57.5 81.
 module.exports = {
   id: 'lips',
   name: 'Lips',
+  emoji: '👄',
+  group: 'People & Body',
+  subgroup: 'body-parts',
   tags: ['lips', 'kiss', 'flirty', 'mouth', 'sexy'],
   tone: 'red',
   body,

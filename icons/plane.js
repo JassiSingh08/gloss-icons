@@ -15,6 +15,9 @@ const wing = 'M-4 5 L9 5 L-12 30 Q-15 33 -18 31 L-16 27 Z';
 module.exports = {
   id: 'plane',
   name: 'Aeroplane',
+  emoji: '✈️',
+  group: 'Travel & Places',
+  subgroup: 'transport-air',
   tags: ['travel', 'flight', 'holiday', 'trip', 'abroad', 'long distance'],
   tone: 'white',
   body: place(hull),

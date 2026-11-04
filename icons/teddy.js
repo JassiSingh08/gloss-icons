@@ -3,6 +3,9 @@ const body = 'M20 83 Q15 83 15 78 C15 70 22 63.5 35.35 60 A22 22 0 1 1 60.65 60 
 module.exports = {
   id: 'teddy',
   name: 'Teddy Bear',
+  emoji: '🧸',
+  group: 'Activities',
+  subgroup: 'game',
   tags: ['teddy', 'bear', 'cuddle', 'soft', 'toy'],
   tone: 'brown',
   body,

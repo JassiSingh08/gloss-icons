@@ -13,6 +13,9 @@ function spiral(cx, cy, turns, r, dir) {
 module.exports = {
   id: 'dizzy',
   name: 'Dizzy',
+  emoji: '😵‍💫',
+  group: 'Smileys & Emotion',
+  subgroup: 'face-unwell',
   tags: ['dizzy', 'confused', 'spinning', 'drunk', 'woozy'],
   tone: 'yellow',
   body,

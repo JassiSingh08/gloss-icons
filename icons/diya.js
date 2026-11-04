@@ -2,6 +2,9 @@ const body = 'M16 57 C16 51 30 49 44 49 C56 49 63 49.5 70 48.5 C74 48 78 46.5 82
 module.exports = {
   id: 'diya',
   name: 'Diya',
+  emoji: '🪔',
+  group: 'Objects',
+  subgroup: 'light & video',
   tags: ['diwali', 'lamp', 'light', 'festival', 'celebration', 'warm'],
   tone: 'brown',
   body,

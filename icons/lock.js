@@ -2,6 +2,9 @@ const body = 'M27 44 L69 44 Q77 44 77 52 L77 75 Q77 83 69 83 L27 83 Q19 83 19 75
 module.exports = {
   id: 'lock',
   name: 'Lock',
+  emoji: '🔒',
+  group: 'Objects',
+  subgroup: 'lock',
   tags: ['lock', 'private', 'secret', 'secure', 'locked'],
   tone: 'gold',
   body,

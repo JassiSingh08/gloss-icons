@@ -2,6 +2,9 @@ const body = 'M31 30 L65 30 Q78 30 78 43 L78 69 Q78 82 65 82 L31 82 Q18 82 18 69
 module.exports = {
   id: 'robot',
   name: 'Robot',
+  emoji: '🤖',
+  group: 'Smileys & Emotion',
+  subgroup: 'face-costume',
   tags: ['robot', 'bot', 'ai', 'computer', 'machine'],
   tone: 'silver',
   body,

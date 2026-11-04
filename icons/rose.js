@@ -3,6 +3,9 @@ const body = 'M26 31 C24 22 29 15 37 15.5 C40 10.5 47 9.5 51.5 12.5 C57 9.5 65 1
 module.exports = {
   id: 'rose',
   name: 'Rose',
+  emoji: '🌹',
+  group: 'Animals & Nature',
+  subgroup: 'plant-flower',
   tags: ['rose', 'flower', 'romance', 'valentine', 'date'],
   tone: 'red',
   body,

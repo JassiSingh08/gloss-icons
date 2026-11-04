@@ -9,6 +9,7 @@ const body = [
 module.exports = {
   id: 'mask',
   name: 'Masquerade Mask',
+  group: 'Extras',
   tags: ['mystery', 'masquerade', 'after dark', 'secret', 'party', 'disguise'],
   tone: 'purple',
   body,

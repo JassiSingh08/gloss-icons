@@ -4,6 +4,9 @@ const body = 'M47 26 C55 17 80 20 80 47 C80 67 66 80 51 84 C49.5 84.5 48.5 84.5 
 module.exports = {
   id: 'peach',
   name: 'Peach',
+  emoji: '🍑',
+  group: 'Food & Drink',
+  subgroup: 'food-fruit',
   tags: ['fruit', 'cheeky', 'flirty', 'summer', 'sweet'],
   tone: 'orange',
   body,

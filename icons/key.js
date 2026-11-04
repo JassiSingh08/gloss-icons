@@ -26,6 +26,9 @@ const ringR = Math.hypot(fobHole[0] - keyHole[0], fobHole[1] - keyHole[1]) / 2;
 module.exports = {
   id: 'key',
   name: 'Room key',
+  emoji: '🔑',
+  group: 'Objects',
+  subgroup: 'lock',
   tags: ['hotel', 'room', 'getaway', 'stay', 'weekend away', 'vintage'],
   tone: 'gold',
   body: [key, fob],

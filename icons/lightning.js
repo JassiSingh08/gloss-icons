@@ -2,6 +2,9 @@ const body = 'M53 9 L70 9 Q72.5 9 71.3 11.3 L59 34 L73 34 Q76 34 74 36.5 L37.5 8
 module.exports = {
   id: 'lightning',
   name: 'Lightning',
+  emoji: '⚡',
+  group: 'Travel & Places',
+  subgroup: 'sky & weather',
   tags: ['energy', 'fast', 'electric', 'spark', 'chemistry', 'power'],
   tone: 'yellow',
   body,

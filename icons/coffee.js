@@ -2,6 +2,9 @@ const body = 'M18 35 A24 5.5 0 0 1 66 35 L66 75 Q66 84 57 84 L27 84 Q18 84 18 75
 module.exports = {
   id: 'coffee',
   name: 'Coffee',
+  emoji: '☕',
+  group: 'Food & Drink',
+  subgroup: 'drink',
   tags: ['coffee', 'morning', 'cafe', 'date', 'drink', 'cosy'],
   tone: 'teal',
   body,

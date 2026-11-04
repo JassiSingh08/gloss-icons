@@ -11,6 +11,9 @@ const R = [67, 84, -8];
 module.exports = {
   id: 'cheers',
   name: 'Cheers',
+  emoji: '🥂',
+  group: 'Food & Drink',
+  subgroup: 'drink',
   tags: ['drinks', 'toast', 'celebrate', 'date', 'wine', 'anniversary'],
   tone: 'sky',
   body: [place(glass, L[2], L[0], L[1]), place(glass, R[2], R[0], R[1])],

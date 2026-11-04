@@ -10,6 +10,9 @@ const bottle = 'M-11 0 Q-14 0 -14 -3 L-14 -34 C-14 -42 -5 -45 -4.5 -52 L-4.5 -65
 module.exports = {
   id: 'champagne',
   name: 'Champagne',
+  emoji: '🍾',
+  group: 'Food & Drink',
+  subgroup: 'drink',
   tags: ['celebrate', 'party', 'pop', 'bubbly', 'new year', 'congrats'],
   tone: 'green',
   body: place(bottle),

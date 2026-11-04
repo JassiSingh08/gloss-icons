@@ -3,6 +3,9 @@ const body = 'M48 22 C65 22 78 35 78 50 C78 53 79.5 55.5 80.5 58.5 C82 64.5 79.5
 module.exports = {
   id: 'sick',
   name: 'Queasy',
+  emoji: '🤢',
+  group: 'Smileys & Emotion',
+  subgroup: 'face-unwell',
   tags: ['sick', 'nauseated', 'queasy', 'gross', 'ill'],
   tone: 'green',
   body,
