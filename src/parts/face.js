@@ -42,21 +42,24 @@ const DROP = 'M0 -10 C2.5 -5.5 5.5 -2.5 5.5 1 A5.5 5.5 0 0 1 -5.5 1 C-5.5 -2.5 -
 // A small heart centred on (0,0), about 12 wide.
 const HEART = 'M0 6 C-4.2 3 -6.2 0.4 -5.9 -2 C-5.6 -4.6 -2.4 -5.7 0 -3.2 C2.4 -5.7 5.6 -4.6 5.9 -2 C6.2 0.4 4.2 3 0 6 Z';
 
+// The window light caught in a glossy eye: a small white spot, upper left like every highlight.
+const glint = (x, y, r = 1.05) => `<ellipse cx="${n(x)}" cy="${n(y)}" rx="${n(r)}" ry="${n(r * 1.3)}" fill="#fff" opacity=".85" transform="rotate(-25 ${n(x)} ${n(y)})"/>`;
+
 const eyes = {
   // Solid upright ovals: the default open eye.
-  oval: ({ y = EYE, dx = DX, rx = 3.3, ry = 4.6, ink = INK } = {}) =>
-    both((x) => `<ellipse cx="${x}" cy="${y}" rx="${rx}" ry="${ry}" fill="${ink}"/>`, dx),
+  oval: ({ y = EYE, dx = DX, rx = 3.6, ry = 5, ink = INK } = {}) =>
+    both((x) => `<ellipse cx="${x}" cy="${y}" rx="${rx}" ry="${ry}" fill="${ink}"/>${glint(x - rx * 0.32, y - ry * 0.38)}`, dx),
   // Ovals with a flat upper lid: knowing, half-interested.
   lidded: ({ y = EYE, dx = DX, ink = INK, tilt = 4 } = {}) =>
     both((x, s) => {
       const top = y - 1.2;
       return `<path d="M${x - 4.2} ${top + s * -tilt * 0.12} L${x + 4.2} ${top + s * tilt * 0.12} Q${x + 3.6} ${y + 4.8} ${x} ${y + 4.8} Q${x - 3.6} ${y + 4.8} ${x - 4.2} ${top + s * -tilt * 0.12} Z" fill="${ink}"/>
-        ${stroke(`M${x - 5} ${top - 0.6 - s * tilt * 0.2} L${x + 5} ${top - 0.6 + s * tilt * 0.2}`, 2.4, ink)}`;
+        ${stroke(`M${x - 5} ${top - 0.6 - s * tilt * 0.2} L${x + 5} ${top - 0.6 + s * tilt * 0.2}`, 2.4, ink)}${glint(x - 1.4, y + 1.2, 0.8)}`;
     }, dx),
   // Big whites with a pupil, for surprise and fear. look: [dx, dy] shifts both pupils.
   wide: ({ y = EYE, dx = DX, r = 6, pupil = 3, look = [0, 0], ink = INK } = {}) =>
     both((x) => `<ellipse cx="${x}" cy="${y}" rx="${r * 0.85}" ry="${r}" fill="#fff" stroke="${ink}" stroke-opacity=".35" stroke-width="1"/>
-      <circle cx="${x + look[0]}" cy="${y + look[1]}" r="${pupil}" fill="${ink}"/>`, dx),
+      <circle cx="${x + look[0]}" cy="${y + look[1]}" r="${pupil}" fill="${ink}"/>${glint(x + look[0] - pupil * 0.35, y + look[1] - pupil * 0.4, pupil * 0.3)}`, dx),
   // Happy closed eyes, arching up: ^ ^
   smile: ({ y = EYE, dx = DX, w = 5.5, h = 4.5, ink = INK, sw = 3.6 } = {}) =>
     both((x) => stroke(`M${x - w} ${y + h / 2} Q${x} ${y - h * 1.3} ${x + w} ${y + h / 2}`, sw, ink), dx),
@@ -68,7 +71,7 @@ const eyes = {
     both((x, s) => stroke(`M${x - s * 5} ${y - 4} L${x + s * 3.5} ${y} L${x - s * 5} ${y + 4}`, 3.6, ink), dx),
   // One eye open, the other a closed arc. side: which eye winks, -1 left, 1 right.
   wink: ({ side = 1, y = EYE, dx = DX, ink = INK } = {}) => {
-    const open = `<ellipse cx="${CX - side * dx}" cy="${y}" rx="3.3" ry="4.6" fill="${ink}"/>`;
+    const open = `<ellipse cx="${CX - side * dx}" cy="${y}" rx="3.6" ry="5" fill="${ink}"/>${glint(CX - side * dx - 1.15, y - 1.9)}`;
     const x = CX + side * dx;
     return open + stroke(`M${x - 5.5} ${y + 1.5} Q${x} ${y - 4.5} ${x + 5.5} ${y + 1.5}`, 3.6, ink);
   },
@@ -76,7 +79,7 @@ const eyes = {
   cross: ({ y = EYE, dx = DX, s = 4.2, ink = INK } = {}) =>
     both((x) => stroke(`M${x - s} ${y - s} L${x + s} ${y + s} M${x + s} ${y - s} L${x - s} ${y + s}`, 3.4, ink), dx),
   // Small dots: blank, unimpressed.
-  dot: ({ y = EYE, dx = DX, r = 3.2, ink = INK } = {}) => both((x) => `<circle cx="${x}" cy="${y}" r="${r}" fill="${ink}"/>`, dx),
+  dot: ({ y = EYE, dx = DX, r = 3.2, ink = INK } = {}) => both((x) => `<circle cx="${x}" cy="${y}" r="${r}" fill="${ink}"/>${glint(x - r * 0.35, y - r * 0.4, r * 0.3)}`, dx),
   // Hearts in place of eyes. Needs the context for the gradient.
   heart: (c, { y = EYE, dx = 12, scale = 1.25, palette = 'red' } = {}) => {
     const fill = c.radial('eyeheart', palette, 0.35, 0.3);
@@ -104,7 +107,7 @@ const brows = {
     both((x, s) => stroke(`M${x + s * 6} ${y - slant / 2} L${x - s * 5} ${y + slant / 2}`, sw, ink), dx),
   // Inner ends up: worry, sadness, pleading.
   worried: ({ y = BROW, dx = DX, ink = INK, sw = 3.2, slant = 4 } = {}) =>
-    both((x, s) => stroke(`M${x + s * 5.5} ${y - slant / 2} Q${x} ${y - slant * 0.2} ${x - s * 5.5} ${y + slant / 2}`, sw, ink), dx),
+    both((x, s) => stroke(`M${x - s * 5.5} ${y - slant / 2} Q${x} ${y - slant * 0.2} ${x + s * 5.5} ${y + slant / 2}`, sw, ink), dx),
   // One brow up, one level: skeptical. side: which brow lifts.
   one: ({ side = 1, y = BROW, dx = DX, ink = INK, sw = 3.2 } = {}) => {
     const up = CX + side * dx;
@@ -171,4 +174,4 @@ const extras = {
   },
 };
 
-module.exports = { BODY, CX, CY, R, INK, MOUTH, TONGUE, TEETH, EYE, BROW, MOUTH_Y, DX, DROP, HEART, spec, head, stroke, eyes, brows, mouth, extras };
+module.exports = { glint, BODY, CX, CY, R, INK, MOUTH, TONGUE, TEETH, EYE, BROW, MOUTH_Y, DX, DROP, HEART, spec, head, stroke, eyes, brows, mouth, extras };
